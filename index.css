@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+wrapper {
+    display: flex;
+    height: calc(90% - 2vw);
+    width: calc(100% -2vw);
+    margin: 2vw;
+    background-color: white;
+    box-shadow: 7px 4px 18px 0px rgba(0,0,0,0.30);
+}
+
+profil {
+    flex: 0.2;
+    border-right: 0.1px solid black;
+    text-align: center;
+}
+
+#profilepicture {
+    display: inline-block;
+    height: 12.5vw;
+    width: auto;
+    margin: 2vw;
+    margin-bottom: 0vw;
+    border-radius: 8vw;
+    box-shadow: 1px 3px 5px 6px #ccc;
+}
+
+project {
+    flex: 0.8;
+}
+
+ul {
+    list-style: none;
+    margin-left: 1.5vw;
+    padding-left: 0;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+ul > li {
+    margin-left: 20px;
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+ul > li a {
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+/* Prevent nested li's from getting messed up */
+ul > li::before {
+    content: " ⁻ ";
+    margin-left: -15px;
+}
