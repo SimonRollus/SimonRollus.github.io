@@ -1,3 +1,6 @@
 [submodule "2048-IABot"]
 	path = 2048-IABot
 	url = https://github.com/SimonRollus/2048-IABot
+[submodule "origin"]
+	path = origin
+	url = https://github.com/SimonRollus/2048-IABot
