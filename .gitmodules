@@ -4,3 +4,6 @@
 [submodule "origin"]
 	path = origin
 	url = https://github.com/SimonRollus/2048-IABot
+[submodule "2048"]
+	path = 2048
+	url = https://github.com/SimonRollus/2048-IABot
